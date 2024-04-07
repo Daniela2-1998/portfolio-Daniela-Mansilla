@@ -1,0 +1,179 @@
+.img{
+    height: 200px;
+    width: 50%;
+    margin-left: 15%;
+    border-radius: 100px;
+    background-image: url("../img/imagencv.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.icono-flecha{
+    height: 40px;
+    width: 20%;
+    margin-bottom: 1%;
+    margin-left: -2%;
+    background-image: url("../img/flecha.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: opacity(0.5) drop-shadow(0 0 0 #fff);
+}
+
+/* SERVICIOS */
+.imagen{
+    height: 100px;
+    width: 30%;
+    margin-left: 37%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.programacion{
+    background-image: url("../img/programacion.svg");
+}
+
+.soporteit{
+    background-image: url("../img/soporteit.svg");
+}
+
+.diseño{
+    background-image: url("../img/diseño.svg");
+}
+
+/* PROYECTOS */
+.imagen-proyecto{
+    height: 400px;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen-proyecto2{
+    height: 380px;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.comexappweb{
+    background-image: url("../img/ComexAppWeb.png");
+}
+
+.comexapp{
+    background-image: url("../img/ComexApp.png");
+}
+
+.listagastos{
+    background-image: url("../img/ListaGastos.png");
+}
+
+.listatareas{
+    background-image: url("../img/ListaTareas.png");
+}
+
+.darcodev{
+    background-image: url("../img/DarcoDevs.png");
+}
+
+.tpfront{
+    background-image: url("../img/tpfront.png");
+}
+
+.tiendaproductos{
+    background-image: url("../img/tiendagamer.png");
+}
+
+/* HOBBIES */
+.imagen-hobby{
+    height: 100px;
+    width: 100%;
+    margin-top: 29%;
+    margin-left: 27%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.videojuegos{
+    background-image: url("../img/games.png");
+}
+
+.musica{
+    background-image: url("../img/music.png");
+}
+
+.libros{
+    background-image: url("../img/books.png");
+}
+
+.dev{
+    background-image: url("../img/dev.png");
+}
+
+.dibujo{
+    background-image: url("../img/painting.png");
+}
+
+.tvshows{
+    background-image: url("../img/tvshows.png");
+}
+
+
+/* CONTACT */
+
+.imagen-contact{
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.linkedin{
+    background-image: url("../img/linkedin.png");
+}
+
+.mail{
+    background-image: url("../img/mail.png");
+
+}
+
+.github{
+    background-image: url("../img/github.png");
+}
+
+
+@media (max-width: 1400px){
+    .imagen-proyecto{
+        width: 80%;
+        margin-right: 5%;
+    }
+
+    .imagen-proyecto2{
+        width: 80%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 750px){
+    .imagen-proyecto{
+        height: 350px;
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .imagen-proyecto2{
+        height: 170px;
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+}
+
