@@ -177,3 +177,15 @@
     }
 }
 
+@media (max-width: 600px){
+    .imagen-proyecto{
+        height: 300px;
+        width: 80%;
+    }
+
+    .imagen-proyecto2{
+        height: 300px;
+        width: 80%;
+    }
+}
+

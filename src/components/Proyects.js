@@ -349,10 +349,8 @@ const ContenedorCardProyects = styled.div`
 
 
   @media (max-width: 1200px) {
-    background-color: red;
     height: 650px;
   }
-
 
   @media (max-width: 750px) {
     height: 700px;
@@ -380,6 +378,7 @@ const InformacionCompletaCardProyects = styled.div`
     flex-direction: column;
   }
 
+
   @media (max-width: 550px) {
     height: 600px;
   }
@@ -393,10 +392,14 @@ const InformacionCardProyects = styled.div`
 
 
   @media (max-width: 750px) {
-    width: 90%;
+    width: 85%;
     margin-left: 7%;
   }
 
+  
+  @media (max-width: 600px) {
+    height: 500px;
+  }
 
 `;
 
@@ -467,9 +470,16 @@ const ContenedorLenguajesCardProyects = styled.div`
     margin-left: -60%;
   }
 
+
   @media (max-width: 750px) {
+    width: 100%;
     margin-left: -2%;
     margin-bottom: 10%;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 0%;
+    margin-left: 0%;
   }
 
 `;

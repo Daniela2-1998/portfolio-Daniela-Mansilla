@@ -75,7 +75,6 @@ const ContenedorAboutMe = styled.div`
 
   @media (max-width: 650px) {
     height: 1450px;
-    width: 100%;
   }
 `;
 

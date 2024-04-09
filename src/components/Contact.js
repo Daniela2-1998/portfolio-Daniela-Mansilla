@@ -71,7 +71,7 @@ const ContenedoresLinksContact = styled.div`
   }
 
   @media (max-width: 550px) {
-    width: 70%;
+    width: 60%;
     margin-left: 37%;
     flex-direction: column;
   }
