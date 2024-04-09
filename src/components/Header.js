@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../css/modelos.css';
+import pdf from '../CVPDF.pdf';
 
 function Header() {
   return (
@@ -8,9 +9,9 @@ function Header() {
       <ContenedorTextoHeader>
         <NombreoHeader>¡Hola, soy Daniela Mansilla!</NombreoHeader>
         <TituloHeader>Desarrolladora web React-Node y Spring.<span>&#160;</span></TituloHeader>
-      
+
         <BotonCVHeader>
-          <a  href="/Portfolio/src/img/CVPDF.pdf" download={"cv - Daniela Mansilla - Desarrolladora web.pdf"}>
+          <a href={pdf} download={"cv - Daniela Mansilla - Desarrolladora web.pdf"}>
             Descargar CV
           </a>
         </BotonCVHeader>
